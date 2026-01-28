@@ -25,7 +25,8 @@ CONFIG_HELP_TEXT = {
     "PORTAL_USERS_MIN_PASSWORD_LENGTH": "Minimum for user portal created voicemail pin",
     "PORTAL_USERS_CALLERID_USE_DROPDOWN_DID_LIST": "User profile CID limited to #'s in inventory, otherwise freeform",
     "PORTAL_LOGGED_IN_POWERED_BY": "Small text bottom of portal, typically copyright info branding",
-    "PORTAL_THREE_WAY_CALL_DISCONNECT_OTHERS_ON_END": "Webphone behavior"
+    "PORTAL_THREE_WAY_CALL_DISCONNECT_OTHERS_ON_END": "Webphone behavior, when originator ends 3-way call",
+    "EMAIL_HTML_GET_SUPPORT_LINK": "Support link used in email footers"
 }
 
 UI_CONFIG_PROMPT_COLOR_HEX = {

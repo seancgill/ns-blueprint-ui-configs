@@ -53,7 +53,8 @@ STRING_CONFIGS = [
     "MOBILE_IOS_FEEDBACK_EMAIL",
     "MOBILE_ANDROID_FEEDBACK_EMAIL",
     "PORTAL_EXTRA_JS",
-    "MOBILE_REGISTRATION_SERVER"
+    "MOBILE_REGISTRATION_SERVER",
+    "EMAIL_HTML_GET_SUPPORT_LINK"
 ]
 
 common_payload = {
@@ -142,114 +143,6 @@ def send_configuration(config, api_url, scope=None):
         logger.error(f"Error sending configuration {config['config_name']}: {str(e)}")
         raise
 
-""" def update_configurations(customer_name=None, config_file=os.path.join("config", "ui_configs.json"), api_url=None):
-    print(f"Using API URL: {api_url}")
-    logger.info(f"Using API URL: {api_url}")
-
-    
-
-    configs = load_json_config(config_file, customer_name, logger=logger)
-    for config in configs:
-        config_name = config["config_name"]
-        current_value = config["config_value"]
-        
-        if "reseller" not in config:
-            if config_name in UI_CONFIG_PROMPT_COLOR_HEX:
-                config["config_value"] = prompt_for_color(config_name, current_value, UI_CONFIG_PROMPT_COLOR_HEX[config_name])
-            elif config_name in YES_NO_CONFIGS:
-                config["config_value"] = prompt_for_yes_no(config_name, current_value)
-            elif config_name in NUMERIC_CONFIGS:
-                config["config_value"] = prompt_for_numeric(config_name, current_value)
-            elif config_name in STRING_CONFIGS:
-                config["config_value"] = prompt_for_string(config_name, current_value)
-        
-        scopes = config.get("scopes", []) if "scopes" in config else config.get("scope", [])
-        if isinstance(scopes, str):
-            scopes = [scope.strip() for scope in scopes.split(",")]
-        
-        validated_scopes = []
-        for scope in scopes:
-            validated_scope = validate_scope(scope, SCOPE_MAPPING, logger=logger)
-            full_scope_name = SCOPE_MAPPING.get(validated_scope, validated_scope)
-            validated_scopes.append(full_scope_name)
-        
-        if validated_scopes:
-            for full_scope_name in validated_scopes:
-                send_configuration(config, api_url, full_scope_name)
-        else:
-            send_configuration(config, api_url) """
-
-""" def update_configurations(customer_name=None, config_file=os.path.join("config", "ui_configs.json"), api_url=None):
-    print(f"Using API URL: {api_url}")
-    logger.info(f"Using API URL: {api_url}")
-
-    # --- 1. ASK THE USER (GATEKEEPER SETUP) ---
-    include_resellers = False
-    
-    while True:
-        user_input = input("Do you want to apply Reseller-specific configs? (yes/no): ").strip()
-        try:
-            # Validates yes/no and normalizes the output
-            validated_response = validate_yes_no(user_input, logger=logger)
-            include_resellers = (validated_response == "yes")
-            break
-        except ValueError:
-            print("Invalid input. Please enter 'yes' or 'no'.")
-            
-    if not include_resellers:
-        print(">> Filtering engaged: Reseller configs will be skipped.")
-        logger.info("Skipping reseller configurations per user request.")
-    else:
-        print(">> Standard mode: All configs will be processed.")
-    # ------------------------------------------
-
-    # --- 2. LOAD CONFIGS (DO THIS ONLY ONCE) ---
-    configs = load_json_config(config_file, customer_name, logger=logger)
-    
-    # --- 3. START SINGLE LOOP ---
-    for config in configs:
-        
-        # [A] THE GATEKEEPER CHECK
-        # If this is a reseller config AND the user said "no", skip this iteration immediately.
-        if "reseller" in config and not include_resellers:
-            # Optional: print skipped items for verification
-            # print(f"Skipping reseller config: {config['config_name']}") 
-            continue
-
-        # [B] PROCESS THE CONFIG (Only happens if we didn't 'continue' above)
-        config_name = config["config_name"]
-        current_value = config["config_value"]
-        
-        # Only prompt for inputs if it is NOT a reseller config
-        # (Resellers usually have hardcoded values in the JSON)
-        if "reseller" not in config:
-            if config_name in UI_CONFIG_PROMPT_COLOR_HEX:
-                config["config_value"] = prompt_for_color(config_name, current_value, UI_CONFIG_PROMPT_COLOR_HEX[config_name])
-            elif config_name in YES_NO_CONFIGS:
-                config["config_value"] = prompt_for_yes_no(config_name, current_value)
-            elif config_name in NUMERIC_CONFIGS:
-                config["config_value"] = prompt_for_numeric(config_name, current_value)
-            elif config_name in STRING_CONFIGS:
-                config["config_value"] = prompt_for_string(config_name, current_value)
-        
-        # [C] HANDLE SCOPES
-        scopes = config.get("scopes", []) if "scopes" in config else config.get("scope", [])
-        if isinstance(scopes, str):
-            scopes = [scope.strip() for scope in scopes.split(",")]
-        
-        validated_scopes = []
-        for scope in scopes:
-            validated_scope = validate_scope(scope, SCOPE_MAPPING, logger=logger)
-            full_scope_name = SCOPE_MAPPING.get(validated_scope, validated_scope)
-            validated_scopes.append(full_scope_name)
-        
-        # [D] SEND TO API
-        if validated_scopes:
-            for full_scope_name in validated_scopes:
-                send_configuration(config, api_url, full_scope_name)
-        else:
-            send_configuration(config, api_url)
- """
 
 def update_configurations(customer_name=None, config_file=os.path.join("config", "ui_configs.json"), api_url=None):
     print(f"Using API URL: {api_url}")

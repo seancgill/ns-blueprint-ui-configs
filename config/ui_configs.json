@@ -672,6 +672,10 @@
     "config_value": "no"
   },
   {
+    "config_name": "EMAIL_HTML_GET_SUPPORT_LINK",
+    "config_value": "support.custID.com"
+  },
+  {
     "config_name": "PORTAL_ANALYTICS_FEATURE_ENABLED",
     "config_value": "yes"
   },
