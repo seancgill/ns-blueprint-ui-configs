@@ -366,6 +366,10 @@
     "config_value": "yes"
   },
   {
+    "config_name": "PORTAL_USERS_SORT_FIRSTNAME",
+    "config_value": "yes"
+  },
+  {
     "config_name": "PORTAL_CALL_QUEUE_USE_SITE",
     "config_value": "yes"
   },
@@ -402,6 +406,10 @@
     "config_value": "yes"
   },
   {
+    "config_name": "PORTAL_CALL_HISTORY_SHOW_FILTER_TIME",
+    "config_value": "yes"
+  },
+  {
     "config_name": "PORTAL_CALLHISTORY_MAX_RANGE_DAYS",
     "config_value": "90"
   },
@@ -423,6 +431,14 @@
   },
   {
     "config_name": "PORTAL_CALL_HISTORY_SHOW_TRACE_OMP",
+    "config_value": "yes"
+  },
+  {
+    "config_name": "PORTAL_CALL_HISTORY_SHOW_QOS",
+    "config_value": "yes"
+  },
+  {
+    "config_name": "PORTAL_CALL_HISTORY_SHOW_REASON_ON_INDEX",
     "config_value": "yes"
   },
   {
@@ -589,6 +605,15 @@
     "config_value": "yes"
   },
   {
+    "config_name": "PORTAL_BUILDER_DEVICE_PROFILE_ACCESS",
+    "config_value": "yes",
+    "scope": "su"
+  },
+  {
+    "config_name": "PORTAL_BUILDER_FEATURE_SHARED_LINE",
+    "config_value": "yes"
+  },
+  {
     "config_name": "PORTAL_DOMAINS_RECORDING_QUOTA",
     "config_value": "yes",
     "scope": "su"
@@ -602,6 +627,10 @@
     "config_name": "PORTAL_DOMAINS_RECORDING_QUOTA_COUNTLIMIT",
     "config_value": "yes",
     "scope": "su"
+  },
+  {
+    "config_name": "PORTAL_CALL_QUEUE_ALLOW_DID_MANAGE",
+    "config_value": "no"
   },
   {
     "config_name": "PORTAL_DOMAINS_RECORDING_QUOTA_SIZELIMIT",
@@ -679,6 +708,14 @@
   },
   {
     "config_name": "PORTAL_CALL_HISTORY_SHOW_ROUTE",
+    "config_value": "yes"
+  },
+  {
+    "config_name": "PORTAL_CONTACTS_SHOW_EMAIL",
+    "config_value": "yes"
+  },
+  {
+    "config_name": "PORTAL_CONTACTS_SHOW_SITE",
     "config_value": "yes"
   },
   {

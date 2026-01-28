@@ -5557,3 +5557,507 @@
 }
 2026-01-25 18:45:21,006 - netsapiens_api - INFO - Received response with status code: 202
 2026-01-25 18:45:21,006 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:28,764 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:28,765 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:28,766 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:28,766 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:29,461 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:29,462 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:29,463 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:29,463 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:30,246 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:30,246 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:30,517 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:30,517 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:30,518 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:30,518 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_AZURE",
+  "config-value": "no",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:31,247 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:31,248 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:31,248 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:31,248 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_AZURE",
+  "config-value": "no",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:31,802 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:31,802 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:32,029 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:32,029 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:32,030 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:32,030 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_GOOGLE_STANDARD",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:32,788 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:32,788 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:32,789 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:32,790 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_GOOGLE_STANDARD",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:33,545 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:33,546 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:33,784 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:33,785 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:33,786 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:33,786 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_GOOGLE_WAVENET",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:34,385 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:34,386 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:34,386 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:34,387 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_GOOGLE_WAVENET",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:35,121 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:35,122 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:35,383 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:35,384 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:35,384 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:35,385 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_POLLY",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:35,935 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:35,936 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:35,937 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:35,938 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_POLLY",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:36,698 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:36,699 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:36,958 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:36,959 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:36,960 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:36,960 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_WATSON",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:37,708 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:37,708 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:37,710 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:37,711 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_WATSON",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:38,498 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:38,499 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:38,765 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:38,766 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:38,767 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:38,767 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_SPEECH_TO_TRANSCRIPTION",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:39,497 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:39,497 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:39,497 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:39,498 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_SPEECH_TO_TRANSCRIPTION",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:40,116 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:40,117 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:40,349 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:40,350 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:40,350 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:40,350 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_SPEECH_TO_TRANSCRIPTION_VENDOR",
+  "config-value": "deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:41,078 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:41,079 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:41,080 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:41,081 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_SPEECH_TO_TRANSCRIPTION_VENDOR",
+  "config-value": "deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:41,856 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:41,856 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:42,107 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:42,107 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:42,107 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:42,107 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TRANSCRIPTION_SENTIMENT",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:42,651 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:42,651 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:42,652 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:42,652 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TRANSCRIPTION_SENTIMENT",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:43,421 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:43,421 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:43,662 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:43,662 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:43,663 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:43,663 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_STREAMING_SPEECH_TO_TEXT",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:44,239 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:44,240 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:44,240 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:44,242 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_STREAMING_SPEECH_TO_TEXT",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:44,969 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:44,969 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:45,237 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:45,238 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:45,239 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:45,239 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_STREAMING_SPEECH_TO_TEXT_VENDOR",
+  "config-value": "deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:46,006 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:46,007 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:46,008 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:46,009 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_STREAMING_SPEECH_TO_TEXT_VENDOR",
+  "config-value": "deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:46,786 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:46,786 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:47,055 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:47,055 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:47,055 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:47,056 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TRANSCRIPTION_SENTIMENT_VENDOR",
+  "config-value": "deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:47,816 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:47,817 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:47,817 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:47,818 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TRANSCRIPTION_SENTIMENT_VENDOR",
+  "config-value": "deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:48,585 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:48,585 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:48,815 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:48,815 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:48,816 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:48,816 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TRANSCRIPTION_SENTIMENT_ENDING_SECONDS",
+  "config-value": "30",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:49,388 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:49,389 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:49,390 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:49,390 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TRANSCRIPTION_SENTIMENT_ENDING_SECONDS",
+  "config-value": "30",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:50,132 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:50,133 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:50,395 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:50,395 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:50,396 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:50,396 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_SPEECH_TO_TRANSCRIPTION_SUMMARY_VENDOR",
+  "config-value": "deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:51,141 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:51,141 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:51,141 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:51,142 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_SPEECH_TO_TRANSCRIPTION_SUMMARY_VENDOR",
+  "config-value": "deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:51,739 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:51,740 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:51,973 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:51,973 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:51,974 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:51,974 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_SPEECH_TO_TRANSCRIPTION_TOPICS_VENDOR",
+  "config-value": "deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:52,708 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:52,708 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:52,708 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:52,709 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_SPEECH_TO_TRANSCRIPTION_TOPICS_VENDOR",
+  "config-value": "deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:53,467 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:53,467 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:53,693 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:53,693 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:53,693 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:53,694 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_USERS_VMAIL_TRANSCRIPTION_DEEPGRAM",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:54,263 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:54,263 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:54,263 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:54,264 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_USERS_VMAIL_TRANSCRIPTION_DEEPGRAM",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:54,993 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:54,994 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:55,240 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:55,240 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:55,241 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:55,242 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_USERS_VMAIL_TRANSCRIPTION_DEEPGRAM_NAME",
+  "config-value": "Deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:55,836 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:55,837 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:55,838 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:55,838 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_USERS_VMAIL_TRANSCRIPTION_DEEPGRAM_NAME",
+  "config-value": "Deepgram",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:56,597 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:56,598 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}
+2026-01-26 16:38:56,860 - netsapiens_api - INFO - APIHelper initialized for target: https://api.sedemo.ucaas.tech
+2026-01-26 16:38:56,860 - netsapiens_api - DEBUG - Using Token: 7a793d6088...
+2026-01-26 16:38:56,861 - netsapiens_api - INFO - Making POST request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:56,861 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_SSML_ENABLED",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:57,621 - netsapiens_api - INFO - Received response with status code: 409
+2026-01-26 16:38:57,622 - netsapiens_api - ERROR - Failed Response: {"code":409,"message":"Config params already exists"}
+2026-01-26 16:38:57,623 - netsapiens_api - INFO - Making PUT request to https://api.sedemo.ucaas.tech/ns-api/v2/configurations
+2026-01-26 16:38:57,623 - netsapiens_api - DEBUG - Request payload: {
+  "config-name": "PORTAL_VOICE_TEXT_TO_SPEECH_SSML_ENABLED",
+  "config-value": "yes",
+  "admin-ui-account-type": "*",
+  "reseller": "*",
+  "user": "*",
+  "domain": "*",
+  "description": "Updated via Streamlit App",
+  "user-scope": "*"
+}
+2026-01-26 16:38:58,420 - netsapiens_api - INFO - Received response with status code: 202
+2026-01-26 16:38:58,422 - netsapiens_api - DEBUG - Response text: {"code":202,"message":"Accepted"}

@@ -118,7 +118,7 @@ def load_blueprint_config(customer_name=None):
 # --- 3. MAIN EXECUTION LOGIC ---
 
 def run_execution_engine():
-    st.title("🚀 Blueprint Executor")
+    st.title("🚀 NS-Blueprint-UI_Configs")
 
     # Initialize Session State
     if 'execution_queue' not in st.session_state:
@@ -345,29 +345,44 @@ if 'authenticated' not in st.session_state:
     st.session_state['authenticated'] = False
 
 if not st.session_state['authenticated']:
-    st.header("NetSapiens Configurator Login")
     
-    with st.form("login"):
-        # 1. READ-ONLY CLIENT ID FIELD
-        st.text_input(
-            "OAuth Client ID", 
-            value=FIXED_CLIENT_ID, 
-            disabled=True, 
-            help="⚠️ IMPORTANT: You must login to the target NetSapiens cluster as Super User and create this OAuth Client ID ('configsapp') before attempting to connect."
-        )
-
-        # 2. STANDARD INPUTS
-        api_url = st.text_input("API URL", "api.netsapiens.com")
-        secret = st.text_input("Client Secret", type="password", help="The secret generated when you created the 'configsapp' client.")
-        user = st.text_input("Username")
-        pwd = st.text_input("Password", type="password")
+    # 1. CREATE COLUMNS TO CENTER EVERYTHING
+    # The middle column (2) is where the content goes. The sides (1) are empty spacers.
+    col1, col2, col3 = st.columns([1, 2, 1])
+    
+    with col2:
+        # 2. ICON & HEADER
+        # Create sub-columns just to center the image perfectly
+        sub_c1, sub_c2, sub_c3 = st.columns([1, 1, 1])
+        with sub_c2:
+            st.image("https://cdn-icons-png.flaticon.com/512/2906/2906274.png", width=100)
         
-        if st.form_submit_button("Connect"):
-            data, valid_url = authenticate(api_url, secret, user, pwd)
-            if data:
-                st.session_state['authenticated'] = True
-                st.session_state['access_token'] = data['access_token']
-                st.session_state['api_url'] = valid_url
-                st.rerun()
+        # Use HTML to center the text
+        st.markdown("<h2 style='text-align: center;'>NS-Blueprint Login</h2>", unsafe_allow_html=True)
+        
+        # 3. LOGIN FORM
+        with st.form("login"):
+            # READ-ONLY CLIENT ID FIELD
+            st.text_input(
+                "OAuth Client ID", 
+                value=FIXED_CLIENT_ID, 
+                disabled=True, 
+                help="⚠️ IMPORTANT: You must login to the target NetSapiens cluster as Super User and create this OAuth Client ID ('configsapp') before attempting to connect."
+            )
+
+            # STANDARD INPUTS
+            api_url = st.text_input("API URL", "api.netsapiens.com")
+            secret = st.text_input("Client Secret", type="password", help="The secret generated when you created the 'configsapp' client.")
+            user = st.text_input("Username")
+            pwd = st.text_input("Password", type="password")
+            
+            # Button with 'use_container_width=True' to make it span the full form width
+            if st.form_submit_button("Connect", use_container_width=True):
+                data, valid_url = authenticate(api_url, secret, user, pwd)
+                if data:
+                    st.session_state['authenticated'] = True
+                    st.session_state['access_token'] = data['access_token']
+                    st.session_state['api_url'] = valid_url
+                    st.rerun()
 else:
     run_execution_engine()
