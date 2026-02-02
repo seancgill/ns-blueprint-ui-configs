@@ -2,3 +2,7 @@
 .streamlit/secrets.toml
 venv/
 notes1.txt
+__pycache__/
+*.py[cod]
+*$py.class
+utils/logs/
