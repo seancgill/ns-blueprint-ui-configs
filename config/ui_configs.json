@@ -209,7 +209,7 @@
   },
   {
     "config_name": "MOBILE_REGISTRATION_SERVER",
-    "config_value": ""
+    "config_value": "_sip._tls.coreX-dc.mycompanyexample.net:5061"
   },
   {
     "config_name": "MOBILE_IOS_FEEDBACK_EMAIL",
