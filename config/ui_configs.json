@@ -341,6 +341,11 @@
     "config_value": "no"
   },
   {
+    "config_name": "PORTAL_USERS_ALLOW_EDIT_911ID",
+    "config_value": "yes",
+    "scope": "su"
+  },
+  {
     "config_name": "PORTAL_USERS_ALLOW_VIEW_AREA_CODE",
     "config_value": "no"
   },
