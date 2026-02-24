@@ -594,6 +594,11 @@
     "config_value": "no"
   },
   {
+    "config_name": "PORTAL_INVENTORY_PHONES_TRANSPORT_TYPE_TLS",
+    "config_value": "yes",
+    "scope": "su"
+  },
+  {
     "config_name": "PORTAL_ALLOW_SCOPE_SELECT_ADVANCED_USER",
     "config_value": "yes"
   },
