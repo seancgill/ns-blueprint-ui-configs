@@ -264,6 +264,10 @@
     "config_value": "yes"
   },
   {
+    "config_name": "PORTAL_USERS_VMAIL_SHOW_EMAIL_OPTIONS",
+    "config_value": "yes"
+  },
+  {
     "config_name": "PORTAL_USERS_ALLOW_RECORDING",
     "config_value": "yes"
   },
